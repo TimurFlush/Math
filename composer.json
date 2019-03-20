@@ -1,0 +1,25 @@
+{
+  "description": "Math wrapper.",
+  "authors": [
+    {
+      "name": "Timur Flush",
+      "email": "flush02@tutanota.com",
+      "homepage": "https://github.com/TimurFlush",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "TimurFlush\\Math\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2.0",
+    "ext-bcmath": "*"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.5",
+    "squizlabs/php_codesniffer": "^3.0.0",
+    "php-coveralls/php-coveralls": "*"
+  }
+}
