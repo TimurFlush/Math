@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/TimurFlush/Math.svg?branch=1.x-dev)](https://travis-ci.org/TimurFlush/Math)
-[![Coverage Status](https://coveralls.io/repos/github/TimurFlush/Math/badge.svg?branch=1.x-dev)](https://coveralls.io/github/TimurFlush/Math?branch=1.x-dev)
+[![Build Status](https://travis-ci.org/TimurFlush/Math.svg?branch=master)](https://travis-ci.org/TimurFlush/Math)
+[![Coverage Status](https://coveralls.io/repos/github/TimurFlush/Math/badge.svg?branch=master)](https://coveralls.io/github/TimurFlush/Math?branch=master)
 
 Враппер для bcmath.
 
