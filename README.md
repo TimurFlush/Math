@@ -69,7 +69,7 @@ echo (string)$object;
 ```
 
 ## Requirements
-PHP ^7.0.0
+PHP ^7.2.0
 
 BCMath
 
