@@ -1,0 +1,1344 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  'C:\\math\\src\\Number.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:afterZeroTest',
+      2 => 'NumberCest:addTest',
+      3 => 'NumberCest:subTest',
+      4 => 'NumberCest:divTest',
+      5 => 'NumberCest:mulTest',
+      6 => 'NumberCest:isZeroTest',
+      7 => 'NumberCest:isNegativeTest',
+      8 => 'NumberCest:isPositiveTest',
+      9 => 'NumberCest:toPositiveTest',
+      10 => 'NumberCest:toNegativeTest',
+      11 => 'NumberCest:roundTest',
+      12 => 'NumberCest:floorTest',
+      13 => 'NumberCest:ceilTest',
+      14 => 'NumberCest:compareTest',
+      15 => 'NumberCest:isMoreThanZeroTest',
+      16 => 'NumberCest:isLessThanZeroTest',
+      17 => 'NumberCest:isLessThanTest',
+      18 => 'NumberCest:isEqualTest',
+      19 => 'NumberCest:isMoreThanTest',
+      20 => 'NumberCest:modTest',
+      21 => 'NumberCest:sqrtTest',
+      22 => 'NumberCest:powTest',
+      23 => 'NumberCest:powmodTest',
+    ),
+    27 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:toPositiveTest',
+      6 => 'NumberCest:toNegativeTest',
+      7 => 'NumberCest:roundTest',
+      8 => 'NumberCest:floorTest',
+      9 => 'NumberCest:ceilTest',
+      10 => 'NumberCest:compareTest',
+      11 => 'NumberCest:isMoreThanZeroTest',
+      12 => 'NumberCest:isLessThanZeroTest',
+      13 => 'NumberCest:isLessThanTest',
+      14 => 'NumberCest:isEqualTest',
+      15 => 'NumberCest:isMoreThanTest',
+      16 => 'NumberCest:modTest',
+      17 => 'NumberCest:sqrtTest',
+      18 => 'NumberCest:powTest',
+      19 => 'NumberCest:powmodTest',
+    ),
+    28 => NULL,
+    39 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:addTest',
+      4 => 'NumberCest:subTest',
+      5 => 'NumberCest:divTest',
+      6 => 'NumberCest:mulTest',
+      7 => 'NumberCest:isZeroTest',
+      8 => 'NumberCest:isNegativeTest',
+      9 => 'NumberCest:isPositiveTest',
+      10 => 'NumberCest:toPositiveTest',
+      11 => 'NumberCest:toNegativeTest',
+      12 => 'NumberCest:roundTest',
+      13 => 'NumberCest:floorTest',
+      14 => 'NumberCest:ceilTest',
+      15 => 'NumberCest:compareTest',
+      16 => 'NumberCest:isMoreThanZeroTest',
+      17 => 'NumberCest:isLessThanZeroTest',
+      18 => 'NumberCest:isLessThanTest',
+      19 => 'NumberCest:isEqualTest',
+      20 => 'NumberCest:isMoreThanTest',
+      21 => 'NumberCest:modTest',
+      22 => 'NumberCest:sqrtTest',
+      23 => 'NumberCest:powTest',
+      24 => 'NumberCest:powmodTest',
+    ),
+    40 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+    ),
+    43 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:addTest',
+      4 => 'NumberCest:subTest',
+      5 => 'NumberCest:divTest',
+      6 => 'NumberCest:mulTest',
+      7 => 'NumberCest:isZeroTest',
+      8 => 'NumberCest:isNegativeTest',
+      9 => 'NumberCest:isPositiveTest',
+      10 => 'NumberCest:toPositiveTest',
+      11 => 'NumberCest:toNegativeTest',
+      12 => 'NumberCest:roundTest',
+      13 => 'NumberCest:floorTest',
+      14 => 'NumberCest:ceilTest',
+      15 => 'NumberCest:compareTest',
+      16 => 'NumberCest:isMoreThanZeroTest',
+      17 => 'NumberCest:isLessThanZeroTest',
+      18 => 'NumberCest:isLessThanTest',
+      19 => 'NumberCest:isEqualTest',
+      20 => 'NumberCest:isMoreThanTest',
+      21 => 'NumberCest:modTest',
+      22 => 'NumberCest:sqrtTest',
+      23 => 'NumberCest:powTest',
+      24 => 'NumberCest:powmodTest',
+    ),
+    44 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:addTest',
+      4 => 'NumberCest:subTest',
+      5 => 'NumberCest:divTest',
+      6 => 'NumberCest:mulTest',
+      7 => 'NumberCest:isZeroTest',
+      8 => 'NumberCest:isNegativeTest',
+      9 => 'NumberCest:isPositiveTest',
+      10 => 'NumberCest:toPositiveTest',
+      11 => 'NumberCest:toNegativeTest',
+      12 => 'NumberCest:roundTest',
+      13 => 'NumberCest:floorTest',
+      14 => 'NumberCest:ceilTest',
+      15 => 'NumberCest:compareTest',
+      16 => 'NumberCest:isMoreThanZeroTest',
+      17 => 'NumberCest:isLessThanZeroTest',
+      18 => 'NumberCest:isLessThanTest',
+      19 => 'NumberCest:isEqualTest',
+      20 => 'NumberCest:isMoreThanTest',
+      21 => 'NumberCest:modTest',
+      22 => 'NumberCest:sqrtTest',
+      23 => 'NumberCest:powTest',
+      24 => 'NumberCest:powmodTest',
+    ),
+    45 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:addTest',
+      4 => 'NumberCest:subTest',
+      5 => 'NumberCest:divTest',
+      6 => 'NumberCest:mulTest',
+      7 => 'NumberCest:isZeroTest',
+      8 => 'NumberCest:isNegativeTest',
+      9 => 'NumberCest:isPositiveTest',
+      10 => 'NumberCest:toPositiveTest',
+      11 => 'NumberCest:toNegativeTest',
+      12 => 'NumberCest:roundTest',
+      13 => 'NumberCest:floorTest',
+      14 => 'NumberCest:ceilTest',
+      15 => 'NumberCest:compareTest',
+      16 => 'NumberCest:isMoreThanZeroTest',
+      17 => 'NumberCest:isLessThanZeroTest',
+      18 => 'NumberCest:isLessThanTest',
+      19 => 'NumberCest:isEqualTest',
+      20 => 'NumberCest:isMoreThanTest',
+      21 => 'NumberCest:modTest',
+      22 => 'NumberCest:sqrtTest',
+      23 => 'NumberCest:powTest',
+      24 => 'NumberCest:powmodTest',
+    ),
+    46 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:addTest',
+      4 => 'NumberCest:subTest',
+      5 => 'NumberCest:divTest',
+      6 => 'NumberCest:mulTest',
+      7 => 'NumberCest:isZeroTest',
+      8 => 'NumberCest:isNegativeTest',
+      9 => 'NumberCest:isPositiveTest',
+      10 => 'NumberCest:toPositiveTest',
+      11 => 'NumberCest:toNegativeTest',
+      12 => 'NumberCest:roundTest',
+      13 => 'NumberCest:floorTest',
+      14 => 'NumberCest:ceilTest',
+      15 => 'NumberCest:compareTest',
+      16 => 'NumberCest:isMoreThanZeroTest',
+      17 => 'NumberCest:isLessThanZeroTest',
+      18 => 'NumberCest:isLessThanTest',
+      19 => 'NumberCest:isEqualTest',
+      20 => 'NumberCest:isMoreThanTest',
+      21 => 'NumberCest:modTest',
+      22 => 'NumberCest:sqrtTest',
+      23 => 'NumberCest:powTest',
+      24 => 'NumberCest:powmodTest',
+    ),
+    48 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:createFromInvalidDataTest',
+      2 => 'NumberCest:afterZeroTest',
+      3 => 'NumberCest:isZeroTest',
+      4 => 'NumberCest:isNegativeTest',
+      5 => 'NumberCest:isPositiveTest',
+      6 => 'NumberCest:toPositiveTest',
+      7 => 'NumberCest:toNegativeTest',
+      8 => 'NumberCest:floorTest',
+      9 => 'NumberCest:ceilTest',
+      10 => 'NumberCest:isMoreThanZeroTest',
+      11 => 'NumberCest:isLessThanZeroTest',
+      12 => 'NumberCest:sqrtTest',
+      13 => 'NumberCest:powTest',
+      14 => 'NumberCest:powmodTest',
+    ),
+    49 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:afterZeroTest',
+      2 => 'NumberCest:isZeroTest',
+      3 => 'NumberCest:isNegativeTest',
+      4 => 'NumberCest:isPositiveTest',
+      5 => 'NumberCest:toPositiveTest',
+      6 => 'NumberCest:toNegativeTest',
+      7 => 'NumberCest:floorTest',
+      8 => 'NumberCest:ceilTest',
+      9 => 'NumberCest:isMoreThanZeroTest',
+      10 => 'NumberCest:isLessThanZeroTest',
+      11 => 'NumberCest:sqrtTest',
+      12 => 'NumberCest:powTest',
+      13 => 'NumberCest:powmodTest',
+    ),
+    51 => 
+    array (
+      0 => 'NumberCest:createFromInvalidDataTest',
+    ),
+    54 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:afterZeroTest',
+      2 => 'NumberCest:addTest',
+      3 => 'NumberCest:subTest',
+      4 => 'NumberCest:divTest',
+      5 => 'NumberCest:mulTest',
+      6 => 'NumberCest:isZeroTest',
+      7 => 'NumberCest:isNegativeTest',
+      8 => 'NumberCest:isPositiveTest',
+      9 => 'NumberCest:toPositiveTest',
+      10 => 'NumberCest:toNegativeTest',
+      11 => 'NumberCest:roundTest',
+      12 => 'NumberCest:floorTest',
+      13 => 'NumberCest:ceilTest',
+      14 => 'NumberCest:compareTest',
+      15 => 'NumberCest:isMoreThanZeroTest',
+      16 => 'NumberCest:isLessThanZeroTest',
+      17 => 'NumberCest:isLessThanTest',
+      18 => 'NumberCest:isEqualTest',
+      19 => 'NumberCest:isMoreThanTest',
+      20 => 'NumberCest:modTest',
+      21 => 'NumberCest:sqrtTest',
+      22 => 'NumberCest:powTest',
+      23 => 'NumberCest:powmodTest',
+    ),
+    55 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:afterZeroTest',
+      2 => 'NumberCest:addTest',
+      3 => 'NumberCest:subTest',
+      4 => 'NumberCest:divTest',
+      5 => 'NumberCest:mulTest',
+      6 => 'NumberCest:isZeroTest',
+      7 => 'NumberCest:isNegativeTest',
+      8 => 'NumberCest:isPositiveTest',
+      9 => 'NumberCest:toPositiveTest',
+      10 => 'NumberCest:toNegativeTest',
+      11 => 'NumberCest:roundTest',
+      12 => 'NumberCest:floorTest',
+      13 => 'NumberCest:ceilTest',
+      14 => 'NumberCest:compareTest',
+      15 => 'NumberCest:isMoreThanZeroTest',
+      16 => 'NumberCest:isLessThanZeroTest',
+      17 => 'NumberCest:isLessThanTest',
+      18 => 'NumberCest:isEqualTest',
+      19 => 'NumberCest:isMoreThanTest',
+      20 => 'NumberCest:modTest',
+      21 => 'NumberCest:sqrtTest',
+      22 => 'NumberCest:powTest',
+      23 => 'NumberCest:powmodTest',
+    ),
+    57 => 
+    array (
+      0 => 'NumberCest:createFromTest',
+      1 => 'NumberCest:afterZeroTest',
+      2 => 'NumberCest:addTest',
+      3 => 'NumberCest:subTest',
+      4 => 'NumberCest:divTest',
+      5 => 'NumberCest:mulTest',
+      6 => 'NumberCest:isZeroTest',
+      7 => 'NumberCest:isNegativeTest',
+      8 => 'NumberCest:isPositiveTest',
+      9 => 'NumberCest:toPositiveTest',
+      10 => 'NumberCest:toNegativeTest',
+      11 => 'NumberCest:roundTest',
+      12 => 'NumberCest:floorTest',
+      13 => 'NumberCest:ceilTest',
+      14 => 'NumberCest:compareTest',
+      15 => 'NumberCest:isMoreThanZeroTest',
+      16 => 'NumberCest:isLessThanZeroTest',
+      17 => 'NumberCest:isLessThanTest',
+      18 => 'NumberCest:isEqualTest',
+      19 => 'NumberCest:isMoreThanTest',
+      20 => 'NumberCest:modTest',
+      21 => 'NumberCest:sqrtTest',
+      22 => 'NumberCest:powTest',
+      23 => 'NumberCest:powmodTest',
+    ),
+    58 => NULL,
+    62 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:modTest',
+      5 => 'NumberCest:sqrtTest',
+      6 => 'NumberCest:powTest',
+      7 => 'NumberCest:powmodTest',
+    ),
+    63 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:modTest',
+      5 => 'NumberCest:sqrtTest',
+      6 => 'NumberCest:powmodTest',
+    ),
+    65 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:modTest',
+      5 => 'NumberCest:sqrtTest',
+      6 => 'NumberCest:powmodTest',
+    ),
+    66 => 
+    array (
+      0 => 'NumberCest:divTest',
+      1 => 'NumberCest:modTest',
+      2 => 'NumberCest:sqrtTest',
+      3 => 'NumberCest:powmodTest',
+    ),
+    68 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+    ),
+    72 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:modTest',
+      5 => 'NumberCest:sqrtTest',
+      6 => 'NumberCest:powTest',
+      7 => 'NumberCest:powmodTest',
+    ),
+    73 => NULL,
+    77 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+      11 => 'NumberCest:modTest',
+      12 => 'NumberCest:sqrtTest',
+      13 => 'NumberCest:powTest',
+      14 => 'NumberCest:powmodTest',
+    ),
+    78 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+    ),
+    79 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+    ),
+    80 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+    ),
+    81 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+    ),
+    86 => 
+    array (
+      0 => 'NumberCest:afterZeroTest',
+      1 => 'NumberCest:addTest',
+      2 => 'NumberCest:subTest',
+      3 => 'NumberCest:divTest',
+      4 => 'NumberCest:mulTest',
+      5 => 'NumberCest:compareTest',
+      6 => 'NumberCest:isMoreThanZeroTest',
+      7 => 'NumberCest:isLessThanZeroTest',
+      8 => 'NumberCest:isLessThanTest',
+      9 => 'NumberCest:isEqualTest',
+      10 => 'NumberCest:isMoreThanTest',
+      11 => 'NumberCest:modTest',
+      12 => 'NumberCest:sqrtTest',
+      13 => 'NumberCest:powTest',
+      14 => 'NumberCest:powmodTest',
+    ),
+    87 => NULL,
+    91 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+      11 => 'NumberCest:sqrtTest',
+      12 => 'NumberCest:powTest',
+      13 => 'NumberCest:powmodTest',
+    ),
+    93 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+      11 => 'NumberCest:sqrtTest',
+      12 => 'NumberCest:powTest',
+      13 => 'NumberCest:powmodTest',
+    ),
+    94 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+      1 => 'NumberCest:powTest',
+      2 => 'NumberCest:powmodTest',
+    ),
+    97 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+    ),
+    99 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+    ),
+    100 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+    ),
+    101 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isEqualTest',
+      4 => 'NumberCest:isMoreThanTest',
+    ),
+    102 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isEqualTest',
+      4 => 'NumberCest:isMoreThanTest',
+    ),
+    104 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+    ),
+    105 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:compareTest',
+      3 => 'NumberCest:isMoreThanZeroTest',
+      4 => 'NumberCest:isLessThanZeroTest',
+      5 => 'NumberCest:isLessThanTest',
+      6 => 'NumberCest:isEqualTest',
+      7 => 'NumberCest:isMoreThanTest',
+      8 => 'NumberCest:modTest',
+    ),
+    106 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:compareTest',
+      3 => 'NumberCest:isMoreThanZeroTest',
+      4 => 'NumberCest:isLessThanZeroTest',
+      5 => 'NumberCest:isLessThanTest',
+      6 => 'NumberCest:isEqualTest',
+      7 => 'NumberCest:isMoreThanTest',
+      8 => 'NumberCest:modTest',
+    ),
+    109 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:isLessThanTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    110 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:isLessThanTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    113 => 
+    array (
+      0 => 'NumberCest:addTest',
+      1 => 'NumberCest:subTest',
+      2 => 'NumberCest:divTest',
+      3 => 'NumberCest:mulTest',
+      4 => 'NumberCest:compareTest',
+      5 => 'NumberCest:isMoreThanZeroTest',
+      6 => 'NumberCest:isLessThanZeroTest',
+      7 => 'NumberCest:isLessThanTest',
+      8 => 'NumberCest:isEqualTest',
+      9 => 'NumberCest:isMoreThanTest',
+      10 => 'NumberCest:modTest',
+    ),
+    114 => NULL,
+    118 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    120 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    121 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    124 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    125 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    126 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    127 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    128 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    129 => 
+    array (
+      0 => 'NumberCest:addTest',
+    ),
+    133 => NULL,
+    137 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    139 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    140 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    143 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    144 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    145 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    146 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    147 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    148 => 
+    array (
+      0 => 'NumberCest:subTest',
+    ),
+    152 => NULL,
+    156 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    158 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    159 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    162 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    163 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    164 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    165 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    166 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    167 => 
+    array (
+      0 => 'NumberCest:divTest',
+    ),
+    171 => NULL,
+    175 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    177 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    178 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    181 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    182 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    183 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    184 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    185 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    186 => 
+    array (
+      0 => 'NumberCest:mulTest',
+    ),
+    190 => NULL,
+    194 => 
+    array (
+      0 => 'NumberCest:isZeroTest',
+      1 => 'NumberCest:isNegativeTest',
+      2 => 'NumberCest:isPositiveTest',
+      3 => 'NumberCest:toPositiveTest',
+      4 => 'NumberCest:toNegativeTest',
+      5 => 'NumberCest:roundTest',
+      6 => 'NumberCest:floorTest',
+      7 => 'NumberCest:ceilTest',
+      8 => 'NumberCest:isMoreThanZeroTest',
+      9 => 'NumberCest:isLessThanZeroTest',
+      10 => 'NumberCest:sqrtTest',
+    ),
+    195 => NULL,
+    199 => 
+    array (
+      0 => 'NumberCest:isNegativeTest',
+      1 => 'NumberCest:toPositiveTest',
+      2 => 'NumberCest:toNegativeTest',
+      3 => 'NumberCest:roundTest',
+      4 => 'NumberCest:floorTest',
+      5 => 'NumberCest:ceilTest',
+      6 => 'NumberCest:sqrtTest',
+    ),
+    200 => NULL,
+    204 => 
+    array (
+      0 => 'NumberCest:isPositiveTest',
+      1 => 'NumberCest:toPositiveTest',
+      2 => 'NumberCest:toNegativeTest',
+      3 => 'NumberCest:floorTest',
+      4 => 'NumberCest:ceilTest',
+    ),
+    205 => NULL,
+    209 => 
+    array (
+      0 => 'NumberCest:toNegativeTest',
+      1 => 'NumberCest:floorTest',
+      2 => 'NumberCest:ceilTest',
+    ),
+    210 => 
+    array (
+      0 => 'NumberCest:toNegativeTest',
+      1 => 'NumberCest:floorTest',
+      2 => 'NumberCest:ceilTest',
+    ),
+    213 => 
+    array (
+      0 => 'NumberCest:toNegativeTest',
+    ),
+    214 => NULL,
+    218 => 
+    array (
+      0 => 'NumberCest:toPositiveTest',
+      1 => 'NumberCest:floorTest',
+      2 => 'NumberCest:ceilTest',
+      3 => 'NumberCest:sqrtTest',
+    ),
+    219 => 
+    array (
+      0 => 'NumberCest:toPositiveTest',
+      1 => 'NumberCest:floorTest',
+      2 => 'NumberCest:ceilTest',
+      3 => 'NumberCest:sqrtTest',
+    ),
+    222 => 
+    array (
+      0 => 'NumberCest:toPositiveTest',
+      1 => 'NumberCest:sqrtTest',
+    ),
+    223 => NULL,
+    227 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    228 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    229 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    230 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    231 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    232 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    236 => 
+    array (
+      0 => 'NumberCest:ceilTest',
+    ),
+    239 => 
+    array (
+      0 => 'NumberCest:floorTest',
+    ),
+    241 => NULL,
+    245 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    246 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    247 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    248 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    249 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    251 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    256 => 
+    array (
+      0 => 'NumberCest:floorTest',
+      1 => 'NumberCest:ceilTest',
+    ),
+    259 => 
+    array (
+      0 => 'NumberCest:ceilTest',
+    ),
+    261 => NULL,
+    271 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    272 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    273 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    274 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    275 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    276 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    279 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    281 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    282 => 
+    array (
+      0 => 'NumberCest:roundTest',
+    ),
+    284 => NULL,
+    288 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isLessThanTest',
+      4 => 'NumberCest:isEqualTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    290 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isLessThanTest',
+      4 => 'NumberCest:isEqualTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    291 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isLessThanTest',
+      4 => 'NumberCest:isEqualTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    294 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isLessThanTest',
+      4 => 'NumberCest:isEqualTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    295 => NULL,
+    299 => 
+    array (
+      0 => 'NumberCest:isMoreThanZeroTest',
+    ),
+    300 => 
+    array (
+      0 => 'NumberCest:isMoreThanZeroTest',
+    ),
+    303 => 
+    array (
+      0 => 'NumberCest:isMoreThanZeroTest',
+    ),
+    304 => NULL,
+    308 => 
+    array (
+      0 => 'NumberCest:isLessThanZeroTest',
+    ),
+    309 => 
+    array (
+      0 => 'NumberCest:isLessThanZeroTest',
+    ),
+    312 => 
+    array (
+      0 => 'NumberCest:isLessThanZeroTest',
+    ),
+    313 => NULL,
+    317 => 
+    array (
+      0 => 'NumberCest:isLessThanTest',
+    ),
+    318 => NULL,
+    322 => 
+    array (
+      0 => 'NumberCest:isEqualTest',
+    ),
+    323 => NULL,
+    327 => 
+    array (
+      0 => 'NumberCest:isMoreThanTest',
+    ),
+    328 => NULL,
+    332 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    334 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    335 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    338 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    339 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    340 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    341 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    342 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    343 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    347 => NULL,
+    351 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    352 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    355 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    356 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    357 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    358 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    359 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    363 => NULL,
+    367 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    368 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    371 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    372 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    373 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    374 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    375 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    376 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    380 => NULL,
+    384 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    386 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    387 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    390 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    391 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    392 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    393 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    394 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    395 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    396 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    400 => NULL,
+  ),
+  'C:\\math\\src\\Exception.php' => 
+  array (
+    9 => 
+    array (
+      0 => 'NumberCest:createFromInvalidDataTest',
+    ),
+    10 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'NumberCest:closedConstructorTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:createFromTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:createFromInvalidDataTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:afterZeroTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:addTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:subTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:divTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:mulTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isZeroTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isNegativeTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isPositiveTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:toPositiveTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:toNegativeTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:roundTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:floorTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:ceilTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:compareTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isMoreThanZeroTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isLessThanZeroTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isLessThanTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isEqualTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:isMoreThanTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:modTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:sqrtTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:powTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'NumberCest:powmodTest' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  'C:\\math\\src\\Exception.php' => true,
+  'C:\\math\\src\\Number.php' => true,
+));
+
+return $coverage;
