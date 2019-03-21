@@ -269,18 +269,20 @@ class Number
     public function round(int $scale = 0)
     {
         $e = \bcpow('10', strval($scale + 1));
-        return self::create(\bcdiv(
-            \bcadd(
-                \bcmul(
-                    $this->_number,
-                    $e,
-                    0
+        return self::create(
+            \bcdiv(
+                \bcadd(
+                    \bcmul(
+                        $this->_number,
+                        $e,
+                        0
+                    ),
+                    ($this->isNegative() ? '-5' : '5')
                 ),
-                ($this->isNegative() ? '-5' : '5')
-            ),
-            $e,
-            $scale
-        ));
+                $e,
+                $scale
+            )
+        );
     }
 
     public function compare($number, int $scale = null): int

@@ -349,6 +349,11 @@ class NumberCest
                 'in' => '-29.54999',
                 'out' => '-29.550'
             ],
+            [
+                'scale' => 0,
+                'in' => '1.555',
+                'out' => 2,
+            ]
         ];
 
         foreach ($array as $item) {

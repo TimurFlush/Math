@@ -961,11 +961,11 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:roundTest',
     ),
-    279 => 
+    277 => 
     array (
       0 => 'NumberCest:roundTest',
     ),
-    281 => 
+    280 => 
     array (
       0 => 'NumberCest:roundTest',
     ),
@@ -973,16 +973,11 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:roundTest',
     ),
-    284 => NULL,
-    288 => 
+    283 => 
     array (
-      0 => 'NumberCest:compareTest',
-      1 => 'NumberCest:isMoreThanZeroTest',
-      2 => 'NumberCest:isLessThanZeroTest',
-      3 => 'NumberCest:isLessThanTest',
-      4 => 'NumberCest:isEqualTest',
-      5 => 'NumberCest:isMoreThanTest',
+      0 => 'NumberCest:roundTest',
     ),
+    286 => NULL,
     290 => 
     array (
       0 => 'NumberCest:compareTest',
@@ -992,7 +987,7 @@ $coverage->setData(array (
       4 => 'NumberCest:isEqualTest',
       5 => 'NumberCest:isMoreThanTest',
     ),
-    291 => 
+    292 => 
     array (
       0 => 'NumberCest:compareTest',
       1 => 'NumberCest:isMoreThanZeroTest',
@@ -1001,7 +996,7 @@ $coverage->setData(array (
       4 => 'NumberCest:isEqualTest',
       5 => 'NumberCest:isMoreThanTest',
     ),
-    294 => 
+    293 => 
     array (
       0 => 'NumberCest:compareTest',
       1 => 'NumberCest:isMoreThanZeroTest',
@@ -1010,65 +1005,66 @@ $coverage->setData(array (
       4 => 'NumberCest:isEqualTest',
       5 => 'NumberCest:isMoreThanTest',
     ),
-    295 => NULL,
-    299 => 
+    296 => 
+    array (
+      0 => 'NumberCest:compareTest',
+      1 => 'NumberCest:isMoreThanZeroTest',
+      2 => 'NumberCest:isLessThanZeroTest',
+      3 => 'NumberCest:isLessThanTest',
+      4 => 'NumberCest:isEqualTest',
+      5 => 'NumberCest:isMoreThanTest',
+    ),
+    297 => NULL,
+    301 => 
     array (
       0 => 'NumberCest:isMoreThanZeroTest',
     ),
-    300 => 
+    302 => 
     array (
       0 => 'NumberCest:isMoreThanZeroTest',
     ),
-    303 => 
+    305 => 
     array (
       0 => 'NumberCest:isMoreThanZeroTest',
     ),
-    304 => NULL,
-    308 => 
+    306 => NULL,
+    310 => 
     array (
       0 => 'NumberCest:isLessThanZeroTest',
     ),
-    309 => 
+    311 => 
     array (
       0 => 'NumberCest:isLessThanZeroTest',
     ),
-    312 => 
+    314 => 
     array (
       0 => 'NumberCest:isLessThanZeroTest',
     ),
-    313 => NULL,
-    317 => 
+    315 => NULL,
+    319 => 
     array (
       0 => 'NumberCest:isLessThanTest',
     ),
-    318 => NULL,
-    322 => 
+    320 => NULL,
+    324 => 
     array (
       0 => 'NumberCest:isEqualTest',
     ),
-    323 => NULL,
-    327 => 
+    325 => NULL,
+    329 => 
     array (
       0 => 'NumberCest:isMoreThanTest',
     ),
-    328 => NULL,
-    332 => 
-    array (
-      0 => 'NumberCest:modTest',
-    ),
+    330 => NULL,
     334 => 
     array (
       0 => 'NumberCest:modTest',
     ),
-    335 => 
+    336 => 
     array (
       0 => 'NumberCest:modTest',
     ),
-    338 => 
-    array (
-      0 => 'NumberCest:modTest',
-    ),
-    339 => 
+    337 => 
     array (
       0 => 'NumberCest:modTest',
     ),
@@ -1088,20 +1084,20 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:modTest',
     ),
-    347 => NULL,
-    351 => 
+    344 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    345 => 
+    array (
+      0 => 'NumberCest:modTest',
+    ),
+    349 => NULL,
+    353 => 
     array (
       0 => 'NumberCest:sqrtTest',
     ),
-    352 => 
-    array (
-      0 => 'NumberCest:sqrtTest',
-    ),
-    355 => 
-    array (
-      0 => 'NumberCest:sqrtTest',
-    ),
-    356 => 
+    354 => 
     array (
       0 => 'NumberCest:sqrtTest',
     ),
@@ -1117,20 +1113,20 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:sqrtTest',
     ),
-    363 => NULL,
-    367 => 
+    360 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    361 => 
+    array (
+      0 => 'NumberCest:sqrtTest',
+    ),
+    365 => NULL,
+    369 => 
     array (
       0 => 'NumberCest:powTest',
     ),
-    368 => 
-    array (
-      0 => 'NumberCest:powTest',
-    ),
-    371 => 
-    array (
-      0 => 'NumberCest:powTest',
-    ),
-    372 => 
+    370 => 
     array (
       0 => 'NumberCest:powTest',
     ),
@@ -1150,24 +1146,24 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:powTest',
     ),
-    380 => NULL,
-    384 => 
+    377 => 
     array (
-      0 => 'NumberCest:powmodTest',
+      0 => 'NumberCest:powTest',
     ),
+    378 => 
+    array (
+      0 => 'NumberCest:powTest',
+    ),
+    382 => NULL,
     386 => 
     array (
       0 => 'NumberCest:powmodTest',
     ),
-    387 => 
+    388 => 
     array (
       0 => 'NumberCest:powmodTest',
     ),
-    390 => 
-    array (
-      0 => 'NumberCest:powmodTest',
-    ),
-    391 => 
+    389 => 
     array (
       0 => 'NumberCest:powmodTest',
     ),
@@ -1191,7 +1187,15 @@ $coverage->setData(array (
     array (
       0 => 'NumberCest:powmodTest',
     ),
-    400 => NULL,
+    397 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    398 => 
+    array (
+      0 => 'NumberCest:powmodTest',
+    ),
+    402 => NULL,
   ),
   'C:\\math\\src\\Exception.php' => 
   array (
