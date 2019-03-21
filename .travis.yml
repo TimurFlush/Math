@@ -29,7 +29,7 @@ before_install:
   - travis_retry composer install --prefer-dist --no-interaction --ignore-platform-reqs
 
 install:
-  - echo "extension=<extension>.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+  - echo "extension=bcmath.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 
 script:
   - vendor/bin/phpcs --extensions=php
