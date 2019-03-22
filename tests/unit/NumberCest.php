@@ -2,6 +2,7 @@
 
 use TimurFlush\Math\Number as n;
 use TimurFlush\Math\Exception as e;
+use Codeception\Stub;
 
 class NumberCest
 {
@@ -15,6 +16,15 @@ class NumberCest
         $I->expectThrowable(Error::class, function () {
             new n();
         });
+    }
+
+    public function createFromSelfTest(UnitTester $I)
+    {
+        $mock = Stub::make(n::class);
+        $clone = n::create($mock);
+
+        $I->assertTrue(is_object($mock) && is_object($clone));
+        $I->assertFalse(spl_object_id($mock) === spl_object_id($clone));
     }
 
     public function createFromTest(UnitTester $I)
