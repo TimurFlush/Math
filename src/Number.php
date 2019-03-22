@@ -36,6 +36,10 @@ class Number
      */
     public static function create($number = null)
     {
+        if ($number instanceof self) {
+            return clone $number;
+        }
+
         if ($number === null) {
             $number = '0';
         }
