@@ -97,7 +97,7 @@ class Number
 
             if ($number > $count) {
                 if ($count === 0) {
-                    $this->_number = '.';
+                    $this->_number = $this->_number . '.';
                 }
 
                 $this->_number = $this->_number . str_repeat('0', $number - $count);
