@@ -9,7 +9,6 @@ class Number
      */
     protected $_number;
 
-    public const SCALE_DEFAULT = 2;
     public const COMPARE_EQUAL = 0;
     public const COMPARE_MORE = 1;
     public const COMPARE_LESS = -1;
@@ -36,6 +35,10 @@ class Number
      */
     public static function create($number = null)
     {
+        if ($number instanceof self) {
+            return clone $number;
+        }
+
         if ($number === null) {
             $number = '0';
         }
