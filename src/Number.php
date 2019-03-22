@@ -9,7 +9,6 @@ class Number
      */
     protected $_number;
 
-    public const SCALE_DEFAULT = 2;
     public const COMPARE_EQUAL = 0;
     public const COMPARE_MORE = 1;
     public const COMPARE_LESS = -1;
