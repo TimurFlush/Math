@@ -72,7 +72,7 @@ class NumberCest
         });
     }
 
-    public function afterZeroTest(UnitTester $I)
+    public function afterPointGetterTest(UnitTester $I)
     {
         $array = [
             '0.00' => 2,
@@ -82,7 +82,44 @@ class NumberCest
 
         foreach ($array as $in => $out) {
             $n = n::create($in);
-            $I->assertEquals($out, $n->afterZero());
+            $I->assertEquals($out, $n->afterPoint());
+        }
+    }
+
+    public function afterPointSetterTest(UnitTester $I)
+    {
+        $array = [
+            [
+                'in' => ['0.5', 0],
+                'exception' => true,
+            ],
+            [
+                'in' => ['-54.55451', -228],
+                'exception' => true,
+            ],
+            [
+                'in' => ['-6.41', 1],
+                'out' => '-6.41'
+            ],
+            [
+                'in' => ['5.60', 6],
+                'out' => '5.600000'
+            ],
+            [
+                'in' => ['515.240', 4],
+                'out' => '515.2400'
+            ]
+        ];
+
+        foreach ($array as $item) {
+            if (isset($item['exception'])) {
+                $I->expectThrowable(e::class, function () use ($item) {
+                    $n = n::create($item['in'][0])->afterPoint($item['in'][1]);
+                });
+            } else {
+                $n = n::create($item['in'][0])->afterPoint($item['in'][1]);
+                $I->assertEquals($item['out'], strval($n));
+            }
         }
     }
 

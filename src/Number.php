@@ -75,29 +75,47 @@ class Number
         return $in;
     }
 
-    public function afterZero(): int
+    public function afterPoint(int $number = null)
     {
-        if (($pos = strpos($this->_number, '.')) !== false) {
-            return strlen(
-                substr(
-                    $this->_number,
-                    $pos + 1
-                )
-            );
-        }
+        if ($number === null) {
+            if (($pos = strpos($this->_number, '.')) !== false) {
+                return strlen(
+                    substr(
+                        $this->_number,
+                        $pos + 1
+                    )
+                );
+            }
 
-        return 0;
+            return 0;
+        } else {
+            if ($number <= 0) {
+                throw Exception::invalidNumber();
+            }
+
+            $count = $this->afterPoint();
+
+            if ($number > $count) {
+                if ($count === 0) {
+                    $this->_number = '.';
+                }
+
+                $this->_number = $this->_number . str_repeat('0', $number - $count);
+            }
+
+            return $this;
+        }
     }
 
     protected function computeScale(self $number = null)
     {
-        $firstScale = $this->afterZero();
+        $firstScale = $this->afterPoint();
 
         if ($number === null) {
             return $firstScale;
         }
 
-        $secondScale = $number->afterZero();
+        $secondScale = $number->afterPoint();
 
         switch ($firstScale <=> $secondScale) {
             case 1:
