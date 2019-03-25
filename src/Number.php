@@ -75,6 +75,11 @@ class Number
         return $in;
     }
 
+    public function isDecimal(): bool
+    {
+        return strpos($this->_number, '.');
+    }
+
     public function afterPoint(int $number = null)
     {
         if ($number === null) {
