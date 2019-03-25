@@ -70,6 +70,9 @@ class NumberCest
         $I->expectThrowable(e::class, function () {
             n::create(false);
         });
+        $I->expectThrowable(e::class, function () {
+            n::create('0.');
+        });
     }
 
     public function afterPointGetterTest(UnitTester $I)
@@ -90,16 +93,16 @@ class NumberCest
     {
         $array = [
             [
-                'in' => ['0.5', 0],
-                'exception' => true,
-            ],
-            [
                 'in' => ['-54.55451', -228],
                 'exception' => true,
             ],
             [
                 'in' => ['-6.41', 1],
-                'out' => '-6.41'
+                'out' => '-6.4'
+            ],
+            [
+                'in' => ['5.1001511', 4],
+                'out' => '5.1001'
             ],
             [
                 'in' => ['5.60', 6],
@@ -112,6 +115,14 @@ class NumberCest
             [
                 'in' => ['15', 5],
                 'out' => '15.00000'
+            ],
+            [
+                'in' => ['15.0151', 0],
+                'out' => '15',
+            ],
+            [
+                'in' => ['-191.01241667', 0],
+                'out' => '-191'
             ]
         ];
 
@@ -780,6 +791,40 @@ class NumberCest
             }
 
             $I->assertEquals($item['out'], strval($powmod));
+        }
+    }
+
+    public function isIntegerTest(UnitTester $I)
+    {
+        $array = [
+            '0.1' => false,
+            '15.51' => false,
+            '-19195.0515' => false,
+            '1' => true,
+            '-51' => true,
+            '0' => false,
+        ];
+
+        foreach ($array as $number => $expected) {
+            $n = n::create($number);
+            $I->assertEquals($expected, $n->isInteger());
+        }
+    }
+
+    public function isDecimalTest(UnitTester $I)
+    {
+        $array = [
+            '0.1' => true,
+            '15.51' => true,
+            '-19195.0515' => true,
+            '1' => false,
+            '-51' => false,
+            '0' => false,
+        ];
+
+        foreach ($array as $number => $expected) {
+            $n = n::create($number);
+            $I->assertEquals($expected, $n->isDecimal());
         }
     }
 }

@@ -45,7 +45,7 @@ class Number
 
         if (is_string($number)) {
             $number = trim($number);
-            if (!preg_match('/\-?\d+(\.\d{0,})?/', $number)) {
+            if (!preg_match('/^\-?\d+(\.\d{1,})?$/', $number)) {
                 throw Exception::invalidNumber();
             }
         } elseif (is_numeric($number)) {
@@ -77,12 +77,12 @@ class Number
 
     public function isDecimal(): bool
     {
-        return strpos($this->_number, '.');
+        return strpos($this->_number, '.') !== false;
     }
 
     public function isInteger(): bool
     {
-        return !$this->isDecimal();
+        return !$this->isDecimal() && !$this->isZero();
     }
 
     protected function pointPosition(): ?int
@@ -112,7 +112,7 @@ class Number
                 throw Exception::invalidNumber();
             } elseif ($number > 0) {
                 if ($this->isInteger()) {
-                    $this->_number = $this->_number . str_repeat('0', $number);
+                    $this->_number = $this->_number . '.' . str_repeat('0', $number);
                 } elseif ($this->isDecimal()) {
                     $count = $this->afterPoint();
 
