@@ -80,6 +80,11 @@ class Number
         return strpos($this->_number, '.');
     }
 
+    public function isInteger(): bool
+    {
+        return !$this->isDecimal();
+    }
+
     public function afterPoint(int $number = null)
     {
         if ($number === null) {
