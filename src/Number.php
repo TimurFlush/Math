@@ -85,10 +85,19 @@ class Number
         return !$this->isDecimal();
     }
 
+    protected function pointPosition(): ?int
+    {
+        if (($pos = strpos($this->_number, '.')) !== false) {
+            return $pos;
+        }
+
+        return null;
+    }
+
     public function afterPoint(int $number = null)
     {
         if ($number === null) {
-            if (($pos = strpos($this->_number, '.')) !== false) {
+            if (($pos = $this->pointPosition()) !== null) {
                 return strlen(
                     substr(
                         $this->_number,
@@ -99,18 +108,24 @@ class Number
 
             return 0;
         } else {
-            if ($number <= 0) {
+            if ($number < 0) {
                 throw Exception::invalidNumber();
-            }
+            } elseif ($number > 0) {
+                if ($this->isInteger()) {
+                    $this->_number = $this->_number . str_repeat('0', $number);
+                } elseif ($this->isDecimal()) {
+                    $count = $this->afterPoint();
 
-            $count = $this->afterPoint();
-
-            if ($number > $count) {
-                if ($count === 0) {
-                    $this->_number = $this->_number . '.';
+                    if ($number > $count) {
+                        $this->_number = $this->_number . str_repeat('0', $number - $count);
+                    } elseif ($number < $count) {
+                        $this->_number = substr($this->_number, 0, $this->pointPosition() + 1 + $number);
+                    }
                 }
-
-                $this->_number = $this->_number . str_repeat('0', $number - $count);
+            } elseif ($number === 0) {
+                if (($pos = $this->pointPosition()) !== null) {
+                    return substr($this->_number, 0, $pos);
+                }
             }
 
             return $this;
