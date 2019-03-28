@@ -111,7 +111,7 @@ class Number
             if ($number < 0) {
                 throw Exception::invalidNumber();
             } elseif ($number > 0) {
-                if ($this->isInteger()) {
+                if ($this->isInteger() || $this->isZero()) {
                     $this->_number = $this->_number . '.' . str_repeat('0', $number);
                 } elseif ($this->isDecimal()) {
                     $count = $this->afterPoint();
