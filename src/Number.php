@@ -77,12 +77,12 @@ class Number
 
     public function isDecimal(): bool
     {
-        return strpos($this->_number, '.') !== false;
+        return !$this->isZero() && strpos($this->_number, '.') !== false;
     }
 
     public function isInteger(): bool
     {
-        return !$this->isDecimal() && !$this->isZero();
+        return !$this->isZero() && !$this->isDecimal();
     }
 
     protected function pointPosition(): ?int
@@ -111,7 +111,11 @@ class Number
             if ($number < 0) {
                 throw Exception::invalidNumber();
             } elseif ($number > 0) {
-                if ($this->isInteger() || $this->isZero()) {
+                if ($this->isInteger() || ($isZero = $this->isZero())) {
+                    if (isset($isZero) && $isZero) {
+                        $this->_number = '0';
+                    }
+
                     $this->_number = $this->_number . '.' . str_repeat('0', $number);
                 } elseif ($this->isDecimal()) {
                     $count = $this->afterPoint();
@@ -124,7 +128,7 @@ class Number
                 }
             } elseif ($number === 0) {
                 if (($pos = $this->pointPosition()) !== null) {
-                    return substr($this->_number, 0, $pos);
+                    $this->_number = substr($this->_number, 0, $pos);
                 }
             }
 
